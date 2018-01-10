@@ -10,3 +10,6 @@ border-color: red;
   border-radius: 8px;
   padding: 10px;
 }
+div > h1, div > p, div > a {
+color: darkorange;
+}
