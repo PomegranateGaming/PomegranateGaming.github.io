@@ -1,0 +1,3 @@
+We need this:
+Images in /design
+Design integration
