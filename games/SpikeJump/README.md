@@ -1,2 +1,0 @@
-# SpikeJump
-Our first game
