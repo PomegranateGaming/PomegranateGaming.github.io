@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="/theme.css"></link>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <title>Pomegranate Gaming - Games</title>
+    <style>
+      .w3-open-condensed {
+      font-family: 'Open Sans Condensed', sans-serif;
+      }
+      h1 {
+      text-align: center;
+      }
+      a {
+      text-align: center;
+      }
+      button {
+      text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <div><h1>Our Games</h1>
-      <ul>
-        <li><a href="/SpikeJump">SpikeJump</a></li>
-        <li>Space Heroes - Available on Scratch by AmazingMech2418</li>
-      </ul></div>
+    <div class="w3-bar w3-deep-orange" style="position:sticky;">
+      <a href="/home/" class="w3-bar-item w3-hover-amber" style="text-decoration:none;">Home</a>
+      <a href="/games" class="w3-bar-item w3-hover-amber"  style="text-decoration:none;">Games</a>
+      <a href="/credits" class="w3-bar-item w3-hover-amber" style="text-decoration:none;">Credits</a>
+    </div>
+    <h1 class="w3-open-condensed"><b>Games</b></h1>
+    <a href="/SpikeJump" target="_self" style="text-decoration:none;">
+      <div>
+        <img src="SpikeJump.png" alt="SpikeJump">
+        <div class="w3-center w3-container">
+          <p class="w3-open-condensed"><b>Spike Jump</b></p>
+          <p class="w3-open-condensed">Don't Touch The Spikes</p>
+        </div>
+      </div>
+    </a>
   </body>
 </html>
-
